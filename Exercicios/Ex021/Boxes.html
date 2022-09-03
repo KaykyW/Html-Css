@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas e semanticas</title>
+    <Style>
+       body{ 
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        font-size: 14px;
+        width: 600px;
+        height: 600px;
+        padding: 3px;
+       }
+       header{
+        background-color: rgb(207, 207, 207);
+        text-align: center;
+        width: 600px;
+        margin: 2px auto 2px auto;
+        padding: 1px;
+        box-shadow: 1px 2px 5px black;
+        
+       }
+       a{
+        background-color: rgb(114, 114, 114);
+        
+        padding: 2px;
+        
+       }
+       
+       
+       a:hover{
+            background-color: bisque;
+       }
+      main{
+        background-color: rgb(197, 196, 196);
+        padding: 10px;
+        margin: 10px auto 10px auto;
+       
+      }
+      
+       article > p{
+        text-align: justify;
+
+      } 
+      footer{
+        background-color: rgb(114, 114, 114);
+        color: white;
+        padding: 3px;
+        
+
+      }
+       
+
+    </Style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Menu</h1>
+            <a href="#"> LINK </a>
+            <a href="#"> LINK </a>
+            <a href="#"> LINK </a>
+            <a href="#"> LINK </a>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Coisas</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium nesciunt modi fugit vero consectetur adipisci maxime quasi voluptatibus corrupti, sapiente incidunt optio repudiandae fuga expedita quod. Nisi, est veritatis.</p>
+            <aside> Macarrao</aside>
+        </article>
+    </main>
+    
+    <footer>
+        <p>Criado por Mim</p>
+    </footer>
+</body>
+</html>
