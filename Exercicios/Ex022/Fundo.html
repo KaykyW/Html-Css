@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens de Fundo e suas configuraçoes</title>
     <style>
+        body{
+            margin: 0px 20%;
+        }      
         div.square{
             height: 200px;
             margin: 10px;
             border: 1px solid black;
             border-radius: 5px;
-            background-image: url("Imagens/wallpaper003.jpg")
+            background-image: url("Imagens/wallpaper003.jpg");
+            background-repeat: no-repeat;
+            padding: auto;
             
         }
         div#q1{
@@ -28,14 +33,43 @@
             background-position: center center;
         }
 
+        h1.titulos{
+            text-align: center; 
+            font-family: Verdana Geneva, Tahoma, sans-serif; font-style: bold;
+            background-color: rgba(74, 55, 182, 0.438);
+            margin: 2px 40px 2px 40px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.123);
+            border-radius: 3px 3px 0px 0px;
+        }
+        div#Bonequinho{
+            background-image: url("https://i.pinimg.com/originals/0a/df/6b/0adf6bb793036a77a2656568a04a6a30.png");
+            background-size: 195px;
+            background-repeat: no-repeat;
+            background-position: center center;
+
+        }
+        p {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.1em;
+            
+            text-indent: 5px;
+        }
+
     </style>
 </head>
 <body>
-     <h1 style="text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: bold;">Posicionamento de Ancoragens da Imagem</h1>
+     <h1 class='titulos'>Posicionamento de Ancoragens da Imagem</h1>
     <div class="square" id="q1"></div>
      <div class="square" id="q2"></div>
      <div class="square" id="q3"></div>
      <div class="square" id="q4"></div>
-    Posicionamento na tela prox ex o do bonequinho
+    <h1 class="titulos">Posicionamento na tela</h1> 
+    <div id="Bonequinho" style="height: 500px">
+       <p>Como da pra observar, a imagem a baixo ta na configuracao <strong>center center</strong> que o coloca ao centro da caixa. <br>
+    Isso torna a movimentacao de fundos mais rigida e facil de se decorar.</p> 
+        
+    </div>
+
 </body>
 </html>
