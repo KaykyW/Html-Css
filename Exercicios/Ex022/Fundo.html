@@ -7,7 +7,8 @@
     <title>Imagens de Fundo e suas configuraçoes</title>
     <style>
         body{
-            margin: 0px 20%;
+            margin: 0px auto;
+            max-width: 40%;
         }      
         div.square{
             height: 200px;
@@ -55,6 +56,38 @@
             
             text-indent: 5px;
         }
+        div#fundo{
+            
+            
+            
+            background-color: black;
+            background-image: url("Imagens/wallpaper002.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: auto ;
+            padding: 20px;
+
+        }
+        div#texto1{ 
+            background-color: white;
+            border: 1px black solid;
+            
+
+        }
+        div#texto1 > h2{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            
+
+        }
+         abbr{
+            text-decoration: none;
+            font-weight: bolder;
+            background-color: rgba(127, 255, 212, 0.404);
+        }
 
     </style>
 </head>
@@ -65,10 +98,19 @@
      <div class="square" id="q3"></div>
      <div class="square" id="q4"></div>
     <h1 class="titulos">Posicionamento na tela</h1> 
-    <div id="Bonequinho" style="height: 500px">
+    <div id="Bonequinho" style="height: 500px; border-style: dashed;">
        <p>Como da pra observar, a imagem a baixo ta na configuracao <strong>center center</strong> que o coloca ao centro da caixa. <br>
     Isso torna a movimentacao de fundos mais rigida e facil de se decorar.</p> 
-        
+    </div>
+    <h1 class="titulos">Tamanhos de Imagens De Fundo</h1>
+    <div id="fundo">
+        <div id="texto1">
+        <h1 class="titulos">background-attachment e background-size</h1>
+        <h2>background-size</h2>
+        <p>Podemos alterar o tamanho da imagem de acordo com nossa vontade ou usar dois termos que facilitam essa busca de valores, que sao: <abbr title="Faz com que o a imagem se enquadre no tamanho da viewport">Cover</abbr> e <abbr title="Faz com que seja mostrado 100% da imagem na tela">Contain</abbr></p>
+        <h2>background-attachment</h2>
+        <p>Para determinar o comportamento da imagem de fundo e necessário ultilizar uma dessas opcoes: <abbr title="Para deixar a imagem sem se mover">FIXED</abbr> e <abbr title="Para que a imagem seja rolada junto com o site">SCROLL</abbr></p>
+        </div>
     </div>
 
 </body>
