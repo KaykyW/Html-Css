@@ -16,11 +16,15 @@ header{
 }
 main{
     max-width: 1000px;
-    margin: auto;
+    margin:  auto;
+    min-height: 100vh;
+    background-color: rgb(253, 249, 243);
+    padding: 50px 0px;
 }
 header > h1{
     color: #fafafa;
     font-family: 'Passion One';
+    font-variant: small-caps;
     font-weight: 400;
     font-size: 3em;
     text-align: center;
@@ -33,34 +37,35 @@ header > p{
     margin: 5px;
 
 }
-header a{
+header a, footer a{
     text-decoration: none;
     color: white;
     text-align: center;
     font-weight: bolder;
   
 }
-header > p > a:hover{
+header > p > a:hover, footer > a:hover{
     text-decoration: underline;
 }
 
 article{
-    margin-top: 100px;
+    margin-bottom: 100px;
     margin-left: 20px ;
+  
+ 
+   
 }
 article > p{
     font-family: 'Sriracha';
     font-size: 1.3em;
+    line-height: 2em;
     
 }
-div > p{
-    font-family: 'Sriracha';
-    font-size: 1.3em; 
-}
 
-.Poema2{
+.Imagem{
+    color: white;
     background: #132309 url("imagens/background001.jpg") center center no-repeat fixed;
-    padding: 50px 0px;
+    padding: 50px;
     background-size: cover;
 
     
@@ -78,4 +83,13 @@ div > p{
     background: #132309 url("imagens/background002.jpg") center center no-repeat fixed;
     padding: 50px 0px;
     background-size: cover; 
+}
+
+footer{
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    padding: 5px;
+    max-width: 1000px;
+    margin: auto;
 }
