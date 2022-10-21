@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #000000;
+    padding: 50px;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+header > h1{
+    color: #fafafa;
+    font-family: 'Passion One';
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+}
+header > p{
+    color: #FAFAFA;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 5px;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  
+}
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+article{
+    margin-top: 100px;
+    margin-left: 20px ;
+}
+article > p{
+    font-family: 'Sriracha';
+    font-size: 1.3em;
+    
+}
+div > p{
+    font-family: 'Sriracha';
+    font-size: 1.3em; 
+}
+
+.Poema2{
+    background: #132309 url("imagens/background001.jpg") center center no-repeat fixed;
+    padding: 50px 0px;
+    background-size: cover;
+
+    
+    
+
+}
+#Poema2 > p{
+    color: #FAFAFA;
+    
+
+}
+
+
+.Poema5{
+    background: #132309 url("imagens/background002.jpg") center center no-repeat fixed;
+    padding: 50px 0px;
+    background-size: cover; 
+}
