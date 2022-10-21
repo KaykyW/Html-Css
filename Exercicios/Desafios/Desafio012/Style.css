@@ -11,7 +11,7 @@ header{
     background-color: #000000;
     padding: 50px;
     max-width: 1000px;
-    min-width: 400px;
+    min-width: 98px;
     margin: auto;
 }
 main{
@@ -50,7 +50,6 @@ header > p > a:hover, footer > a:hover{
 
 article{
     margin-bottom: 100px;
-    margin-left: 20px ;
   
  
    
@@ -59,18 +58,37 @@ article > p{
     font-family: 'Sriracha';
     font-size: 1.3em;
     line-height: 2em;
+    padding-left: 40px;
     
 }
 
 .Imagem{
     color: white;
-    background: #132309 url("imagens/background001.jpg") center center no-repeat fixed;
-    padding: 50px;
+    padding: 25px;
     background-size: cover;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.37);
     
     
+  
 
+}
+.Imagem > p{
+    background-color: #00000083;
+    width: 400px;
+    padding: 50px 10px 50px 20px;
+    backdrop-filter: blur(5px);
+    
+}
+#imagem1{
+    background: #132309 url("imagens/background001.jpg") center center no-repeat fixed;
+    
+
+}
+#imagem2 {
+    background: #132309 url("imagens/background002.jpg") center center no-repeat fixed;
+   
 }
 #Poema2 > p{
     color: #FAFAFA;
