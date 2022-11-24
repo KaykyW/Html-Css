@@ -13,43 +13,56 @@
         }
         table{
             width: 300px;
+            height: 400px;;
             border-collapse: collapse;
-            margin: 0vh 42%;
-        }
-        tr{
-            background-color: rgba(150, 151, 168, 0.5);
-            
-        }
+           
+        }  
         
         td{
             border: 1px black solid;
             padding: 5px;
+            text-align: center; /*ALinhamento Horizontal - Left, Center, Rigth */
+            vertical-align: top; /*Alinhamento vertical - Top, Middle, Bottom */
             
             
         }
+        main{
+            border: 2px black solid;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Minha primeira tabela</h1>
-    <table>
-        <tr>
-            <td>A1</td>
-            <td>B2</td>
-            <td>C3</td>
+    <main>
+        <!--Hierarquia de tabelas 
+         <table> 
+            table row - <tr>
+                table header - <th>
+                    table data - <td> -->
+        
+        <h1>Minha primeira tabela</h1>
+        <table>
+            <tr>
+                <td>A1</td>
+                <td>B2</td>
+                <td>C3</td>
+            </tr>
+            <TR>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C3</td>
+            </TR>
+            <TR>
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </TR>
+        </table>
+    </main>
+    <main>
 
-        </tr>
-        <TR>
-            <td>A2</td>
-            <td>B2</td>
-            <td>C3</td>
 
-        </TR>
-        <TR>
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
+    </main>
 
-        </TR>
-    </table>
 </body>
 </html>
