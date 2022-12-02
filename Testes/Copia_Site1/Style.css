@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{margin: 0px; padding: 0px;}
+body{
+    background-color: white;
+    max-width: 1080px;
+    margin: auto;
+}
+nav{
+    background-color: white;
+    padding: 15px 0px 0px 0px;
+}
+nav > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    margin: 10px 30px;
+    color: rgb(63, 63, 63)
+}
+nav > a#black {
+    background-color: black;
+    position: static;
+    
+    left: 1000px;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+main{
+    background-color: black;
+    margin: 25px;
+
+}
