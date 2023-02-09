@@ -5,13 +5,28 @@ body{
     background-color: rgb(75, 75, 75);
 }
 
+iframe{
+    margin: auto;
+    display: block;
+}
+
 #div2 > iframe{
     width: 95%;
     height: 400px;
     border: 2px solid black;
 
 }
-
+h1{
+    text-align: center;
+   
+}
+abbr{
+    text-decoration: dashed;
+    color: rgb(20, 20, 148);
+}
+a{
+    text-decoration: none;
+}
 div.conteudos {
     
     margin: 10px auto;
@@ -20,5 +35,7 @@ div.conteudos {
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.158);
     background-color: rgb(241, 241, 241);
+
+    border-radius: 5px;
 
 }
